@@ -80,7 +80,7 @@ export const Navbar = () => {
   const classes = useStyles({ open });
   return (
     <div>
-      <AppBar>
+      <AppBar position="fixed">
         <Toolbar className={classes.toolbar}>
           <Typography variant="h6" className={classes.logoLg}>
             Dev Shop
