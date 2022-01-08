@@ -83,7 +83,7 @@ export const Navbar = () => {
       <AppBar position="fixed">
         <Toolbar className={classes.toolbar}>
           <Typography variant="h6" className={classes.logoLg}>
-            Dev Shop
+            Dev Social
           </Typography>
           <Typography variant="h6" className={classes.logoSm}>
             DEV

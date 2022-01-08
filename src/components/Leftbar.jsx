@@ -19,6 +19,8 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: theme.spacing(-1),
     height: "100vh",
     color: "white",
+    position: "sticky",
+    top: 0,
     [theme.breakpoints.up("sm")]: {
       backgroundColor: "white",
       color: "#555",
